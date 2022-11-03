@@ -149,3 +149,6 @@ cloudsqlproxy:
   credentialsSecret: ""
   # service account json
   credentials: ""
+  workloadIdentity:
+    enabled: false
+    serviceAccountEmail: ""
